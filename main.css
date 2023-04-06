@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Bungee', cursive;
+    font-weight:400;
+    padding: 28px;
+    background-color: yellow;
+    color: green;
+}
+
+body {
+    font-family: 'roboto', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: green
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#historia {
+    background-color: rgb(0, 153, 255);
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles h2 {
+    margin-top: 32px;
+}
+
+.articles article img {
+    height: 200px;
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+#icones {
+    background-color: gold;
+}
+
+#atualidade {
+    background-color: rgb(0, 153, 255);
+}
+
+footer {
+    background-color: black;
+    color:aliceblue;
+}
