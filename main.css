@@ -8,8 +8,8 @@ header {
     font-family: 'Bungee', cursive;
     font-weight:400;
     padding: 28px;
-    background-color: yellow;
-    color: green;
+    background-color: darkgreen;
+    color: yellow;
 }
 
 body {
@@ -23,7 +23,7 @@ header nav li {
 }
 
 header nav li a {
-    color: green
+    color: yellow
 }
 
 .container {
@@ -68,6 +68,33 @@ header .container {
 
 #atualidade {
     background-color: rgb(0, 153, 255);
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: goldenrod;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#registro {
+    background-color: darkgreen;
 }
 
 footer {
